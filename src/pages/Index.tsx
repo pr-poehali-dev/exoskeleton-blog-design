@@ -42,7 +42,7 @@ const Index = () => {
           </h2>
           <div className="w-24 h-1 bg-[#0EA5E9] mx-auto mb-16" />
 
-          <div className="grid md:grid-cols-3 gap-8 animate-slide-up">
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 animate-slide-up">
             <Card className="p-8 text-center hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 border-2 hover:border-[#0EA5E9]/30">
               <div className="w-20 h-20 mx-auto mb-6 rounded-full bg-[#0EA5E9]/10 flex items-center justify-center">
                 <Icon name="Home" size={40} className="text-[#0EA5E9]" />
